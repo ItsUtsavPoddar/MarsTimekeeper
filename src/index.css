@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Neue1";
+  src: local("Neue"),
+    url("./fonts/NeueMetanaNext-SemiBold.ttf") format("truetype");
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Neue2";
+  
+  src: local("Neue"),
+    url("./fonts/NeueMetanaNextOutline-Black.ttf") format("truetype");
+  font-weight: normal;
+}
+
+
+body {
+  font-family: 'Neue1' ;
+
 }
